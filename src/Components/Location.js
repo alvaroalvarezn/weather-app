@@ -1,6 +1,10 @@
 import React from   'react';
-const Location = ()=>(
-    <div><h1>Barranquilla</h1>
+const Location = ({city})=>(
+
+    <div>
+        <h1>
+            {city}
+        </h1>
     </div>
 );
 
